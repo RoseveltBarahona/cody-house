@@ -1,0 +1,32 @@
+Useful Links:
+- MDN Array: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- MDN Document Properties and Methods: https://developer.mozilla.org/en-US/docs/Web/API/Document
+- MDN Event Reference: https://developer.mozilla.org/en-US/docs/Web/Events
+- classie,js GitHub page: https://github.com/desandro/classie
+
+Notes:
+- To define an Array you can also use the Array keyword:
+var colorArray = Array(‘red’, ’yellow’);
+Or also:
+var colorArray = Array();
+colorArray[0] = ‘red’;
+colorArray[1] = ‘yellow’;
+
+- To access an element you can use the items() method:
+colorArray.items(0); // it is the same as colorArray[0];
+
+- Another statement JavaScript provides is the switch statement; it starts with a variable (switch variable). Each case indicates a different value for the variable and the code to run if the variable is matched:
+var keyCodeValue =  event.keyCode;
+switch (keyCodeValue) {
+	case 27:
+	//code here
+	break;
+
+	case 39:
+	//code here
+	break;
+
+	default:
+	//code here
+	break;
+}

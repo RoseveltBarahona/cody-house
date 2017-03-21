@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  	
+	<title>To-do list app</title>
+</head>
+<body>
+
+<h1>Your Lists</h1>
+<ul class="lists-wrapper">
+	<li class="single-list">
+		<h2>Learn JavaScript</h2>
+		
+		<ul class="cards-wrapper">
+			<li class="single-card">
+				<div class="card-content">
+					<p>Accessing DOM elements</p>
+				</div>
+			</li>
+
+			<li class="single-card create-card">
+				<div class="card-content">
+					<textarea></textarea>
+				</div>
+				<div class="card-actions">
+					<button class="add-card">Add New Card</button>
+					<button class="save-card">Save Card</button>
+				</div>
+			</li>
+		</ul>
+	</li>
+
+	<li class="single-list create-list">
+		<div>
+			<div class="list-placeholder">
+				<span id="create-list" class="placeholder-title">Add a list...</span>
+				<input type="text">
+			</div>
+			<button class="save-list" id="save-list">Save List</button>
+		</div>
+	</li>
+</ul>
+
+<script src="js/main.js"></script>
+</body>
+</html>
